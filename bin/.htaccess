@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^haloacara\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.haloacara\.com$
+RewriteRule ^/?$ "http\:\/\/haloacara\.mmcrajawali\.com" [R=301,L]
+
