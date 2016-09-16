@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 16, 2016 at 08:10 PM
--- Server version: 10.1.10-MariaDB
--- PHP Version: 5.6.19
+-- Generation Time: Sep 16, 2016 at 08:31 PM
+-- Server version: 10.1.9-MariaDB
+-- PHP Version: 5.6.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -110,7 +110,7 @@ INSERT INTO `ha_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (1, 'siteurl', 'http://localhost/haloacara', 'yes'),
 (2, 'home', 'http://localhost/haloacara', 'yes'),
 (3, 'blogname', 'HaloAcara', 'yes'),
-(4, 'blogdescription', 'Just another WordPress site', 'yes'),
+(4, 'blogdescription', '', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
 (6, 'admin_email', 'mmcrajawali@gmail.com', 'yes'),
 (7, 'start_of_week', '1', 'yes'),
@@ -209,7 +209,7 @@ INSERT INTO `ha_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (100, 'widget_calendar', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (101, 'widget_tag_cloud', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (102, 'widget_nav_menu', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
-(103, 'cron', 'a:10:{i:1474047983;a:1:{s:20:"jetpack_clean_nonces";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"hourly";s:4:"args";a:0:{}s:8:"interval";i:3600;}}}i:1474048396;a:1:{s:32:"woocommerce_cancel_unpaid_orders";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:2:{s:8:"schedule";b:0;s:4:"args";a:0:{}}}}i:1474065786;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474065907;a:1:{s:28:"woocommerce_cleanup_sessions";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474070400;a:1:{s:27:"woocommerce_scheduled_sales";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474109000;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474109107;a:1:{s:30:"woocommerce_tracker_send_event";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474109457;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1475539200;a:1:{s:25:"woocommerce_geoip_updater";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:7:"monthly";s:4:"args";a:0:{}s:8:"interval";i:2635200;}}}s:7:"version";i:2;}', 'yes'),
+(103, 'cron', 'a:10:{i:1474051583;a:1:{s:20:"jetpack_clean_nonces";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"hourly";s:4:"args";a:0:{}s:8:"interval";i:3600;}}}i:1474053907;a:1:{s:32:"woocommerce_cancel_unpaid_orders";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:2:{s:8:"schedule";b:0;s:4:"args";a:0:{}}}}i:1474065786;a:3:{s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474065907;a:1:{s:28:"woocommerce_cleanup_sessions";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1474070400;a:1:{s:27:"woocommerce_scheduled_sales";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474109000;a:1:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474109107;a:1:{s:30:"woocommerce_tracker_send_event";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1474109457;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1475539200;a:1:{s:25:"woocommerce_geoip_updater";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:7:"monthly";s:4:"args";a:0:{}s:8:"interval";i:2635200;}}}s:7:"version";i:2;}', 'yes'),
 (107, '_site_transient_update_core', 'O:8:"stdClass":4:{s:7:"updates";a:1:{i:0;O:8:"stdClass":10:{s:8:"response";s:6:"latest";s:8:"download";s:59:"https://downloads.wordpress.org/release/wordpress-4.6.1.zip";s:6:"locale";s:5:"en_US";s:8:"packages";O:8:"stdClass":5:{s:4:"full";s:59:"https://downloads.wordpress.org/release/wordpress-4.6.1.zip";s:10:"no_content";s:70:"https://downloads.wordpress.org/release/wordpress-4.6.1-no-content.zip";s:11:"new_bundled";s:71:"https://downloads.wordpress.org/release/wordpress-4.6.1-new-bundled.zip";s:7:"partial";b:0;s:8:"rollback";b:0;}s:7:"current";s:5:"4.6.1";s:7:"version";s:5:"4.6.1";s:11:"php_version";s:5:"5.2.4";s:13:"mysql_version";s:3:"5.0";s:11:"new_bundled";s:3:"4.4";s:15:"partial_version";s:0:"";}}s:12:"last_checked";i:1474040737;s:15:"version_checked";s:5:"4.6.1";s:12:"translations";a:0:{}}', 'no'),
 (113, '_site_transient_timeout_browser_aa7adcc5662813180f8b2225f232c91f', '1474109001', 'no'),
 (114, '_site_transient_browser_aa7adcc5662813180f8b2225f232c91f', 'a:9:{s:8:"platform";s:7:"Windows";s:4:"name";s:6:"Chrome";s:7:"version";s:13:"52.0.2743.116";s:10:"update_url";s:28:"http://www.google.com/chrome";s:7:"img_src";s:49:"http://s.wordpress.org/images/browsers/chrome.png";s:11:"img_src_ssl";s:48:"https://wordpress.org/images/browsers/chrome.png";s:15:"current_version";s:2:"18";s:7:"upgrade";b:0;s:8:"insecure";b:0;}', 'no'),
@@ -376,7 +376,7 @@ INSERT INTO `ha_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (364, '_transient_dash_88ae138922fe95674369b1cb3d215a2b', '<div class="rss-widget"><ul><li><a class=''rsswidget'' href=''https://wordpress.org/news/2016/09/wordpress-4-6-1-security-and-maintenance-release/''>WordPress 4.6.1 Security and Maintenance Release</a> <span class="rss-date">September 7, 2016</span><div class="rssSummary">WordPress 4.6.1 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.6 and earlier are affected by two security issues: a cross-site scripting vulnerability via image filename, reported by SumOfPwn researcher Cengiz Han Sahin; and a path traversal vulnerability in [&hellip;]</div></li></ul></div><div class="rss-widget"><p><strong>RSS Error</strong>: WP HTTP Error: cURL error 28: Operation timed out after 10000 milliseconds with 97991 bytes received</p></div><div class="rss-widget"><ul><li class="dashboard-news-plugin"><span>Popular Plugin:</span> Page Builder by SiteOrigin&nbsp;<a href="plugin-install.php?tab=plugin-information&amp;plugin=siteorigin-panels&amp;_wpnonce=a2c4e0c1b7&amp;TB_iframe=true&amp;width=600&amp;height=800" class="thickbox open-plugin-details-modal" aria-label="Install Page Builder by SiteOrigin">(Install)</a></li></ul></div>', 'no'),
 (366, '_transient_product_query-transient-version', '1474046043', 'yes'),
 (367, '_transient_product-transient-version', '1474046044', 'yes'),
-(386, '_transient_timeout_wc_related_15', '1474123289', 'no'),
+(386, '_transient_timeout_wc_related_15', '1474137062', 'no'),
 (387, '_transient_wc_related_15', 'a:0:{}', 'no'),
 (396, '_transient_orders-transient-version', '1474037007', 'yes'),
 (400, '_transient_wc_count_comments', 'O:8:"stdClass":7:{s:8:"approved";s:1:"1";s:14:"total_comments";i:1;s:3:"all";i:1;s:9:"moderated";i:0;s:4:"spam";i:0;s:5:"trash";i:0;s:12:"post-trashed";i:0;}', 'yes'),
@@ -394,7 +394,7 @@ INSERT INTO `ha_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (421, '_transient_wc_admin_report', 'a:4:{s:32:"162f3793203cb2f7faa46cbcdf795fce";a:1:{i:0;O:8:"stdClass":2:{s:15:"sparkline_value";s:6:"150000";s:9:"post_date";s:19:"2016-09-16 14:42:46";}}s:32:"8a7becbebf355b8d8d93126aa43e21ce";a:1:{i:0;O:8:"stdClass":3:{s:10:"product_id";s:2:"15";s:15:"sparkline_value";s:1:"1";s:9:"post_date";s:19:"2016-09-16 14:42:46";}}s:32:"0aa8fcb6f7ace87f3ad81e176069449d";a:1:{i:0;O:8:"stdClass":2:{s:15:"sparkline_value";s:6:"150000";s:9:"post_date";s:19:"2016-09-16 14:42:46";}}s:32:"1cb8eb0ea2231a6e1165f2ac284aa506";a:1:{i:0;O:8:"stdClass":3:{s:10:"product_id";s:2:"15";s:15:"sparkline_value";s:1:"1";s:9:"post_date";s:19:"2016-09-16 14:42:46";}}}', 'no'),
 (426, '_site_transient_timeout_wporg_theme_feature_list', '1474051258', 'no'),
 (427, '_site_transient_wporg_theme_feature_list', 'a:3:{s:6:"Layout";a:7:{i:0;s:11:"grid-layout";i:1;s:10:"one-column";i:2;s:11:"two-columns";i:3;s:13:"three-columns";i:4;s:12:"four-columns";i:5;s:12:"left-sidebar";i:6;s:13:"right-sidebar";}s:8:"Features";a:20:{i:0;s:19:"accessibility-ready";i:1;s:10:"buddypress";i:2;s:17:"custom-background";i:3;s:13:"custom-colors";i:4;s:13:"custom-header";i:5;s:11:"custom-menu";i:6;s:12:"editor-style";i:7;s:21:"featured-image-header";i:8;s:15:"featured-images";i:9;s:15:"flexible-header";i:10;s:14:"footer-widgets";i:11;s:20:"front-page-post-form";i:12;s:19:"full-width-template";i:13;s:12:"microformats";i:14;s:12:"post-formats";i:15;s:20:"rtl-language-support";i:16;s:11:"sticky-post";i:17;s:13:"theme-options";i:18;s:17:"threaded-comments";i:19;s:17:"translation-ready";}s:7:"Subject";a:9:{i:0;s:4:"blog";i:1;s:10:"e-commerce";i:2;s:9:"education";i:3;s:13:"entertainment";i:4;s:14:"food-and-drink";i:5;s:7:"holiday";i:6;s:4:"news";i:7;s:11:"photography";i:8;s:9:"portfolio";}}', 'no'),
-(429, 'theme_mods_shapely', 'a:2:{i:0;b:0;s:24:"shapely_sidebar_position";s:10:"full-width";}', 'yes'),
+(429, 'theme_mods_shapely', 'a:4:{i:0;b:0;s:24:"shapely_sidebar_position";s:10:"full-width";s:11:"header_logo";i:27;s:18:"nav_menu_locations";a:1:{s:7:"primary";i:13;}}', 'yes'),
 (430, 'widget_shapely_recent_posts', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (431, 'widget_shapely-cats', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (432, 'widget_shapely_home_parallax', 'a:2:{s:12:"_multiwidget";i:1;i:3;a:8:{s:5:"title";s:0:"";s:9:"image_src";s:81:"http://localhost/haloacara/wp-content/uploads/2016/09/8285850247_d6de9ba147_b.jpg";s:9:"image_pos";s:15:"background-full";s:12:"body_content";s:0:"";s:7:"button1";s:0:"";s:7:"button2";s:0:"";s:12:"button1_link";s:0:"";s:12:"button2_link";s:0:"";}}', 'yes'),
@@ -425,12 +425,13 @@ INSERT INTO `ha_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (466, '_site_transient_browser_e1b306fa90ed47fe425c455b14ce2486', 'a:9:{s:8:"platform";s:7:"Windows";s:4:"name";s:6:"Chrome";s:7:"version";s:13:"52.0.2743.116";s:10:"update_url";s:28:"http://www.google.com/chrome";s:7:"img_src";s:49:"http://s.wordpress.org/images/browsers/chrome.png";s:11:"img_src_ssl";s:48:"https://wordpress.org/images/browsers/chrome.png";s:15:"current_version";s:2:"18";s:7:"upgrade";b:0;s:8:"insecure";b:0;}', 'no'),
 (469, 'searchandfilter_version', '1.2.9', 'yes'),
 (471, 'product_cat_children', 'a:0:{}', 'yes'),
-(472, '_site_transient_timeout_theme_roots', '1474047556', 'no'),
-(473, '_site_transient_theme_roots', 'a:5:{s:7:"shapely";s:7:"/themes";s:10:"storefront";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'no'),
-(476, '_transient_is_multi_author', '0', 'yes'),
 (480, '_transient_timeout_wc_term_counts', '1476638050', 'no'),
 (482, '_transient_wc_term_counts', 'a:3:{i:6;s:1:"1";i:7;s:1:"1";i:11;s:1:"1";}', 'no'),
-(493, '_transient_shapely_categories', '1', 'yes');
+(497, '_site_transient_timeout_theme_roots', '1474052202', 'no'),
+(498, '_site_transient_theme_roots', 'a:5:{s:7:"shapely";s:7:"/themes";s:10:"storefront";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:14:"twentyfourteen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'no'),
+(499, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:"auto_add";a:1:{i:0;i:13;}}', 'yes'),
+(500, '_transient_is_multi_author', '0', 'yes'),
+(501, '_transient_shapely_categories', '1', 'yes');
 
 -- --------------------------------------------------------
 
@@ -581,7 +582,21 @@ INSERT INTO `ha_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (141, 24, '_wp_attached_file', '2016/09/1.jpg'),
 (142, 24, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:1600;s:6:"height";i:499;s:4:"file";s:13:"2016/09/1.jpg";s:5:"sizes";a:8:{s:9:"thumbnail";a:4:{s:4:"file";s:13:"1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:12:"1-300x94.jpg";s:5:"width";i:300;s:6:"height";i:94;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:13:"1-768x240.jpg";s:5:"width";i:768;s:6:"height";i:240;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:14:"1-1024x319.jpg";s:5:"width";i:1024;s:6:"height";i:319;s:9:"mime-type";s:10:"image/jpeg";}s:16:"shapely-featured";a:4:{s:4:"file";s:13:"1-848x499.jpg";s:5:"width";i:848;s:6:"height";i:499;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:13:"1-350x109.jpg";s:5:"width";i:350;s:6:"height";i:109;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:13:"1-350x453.jpg";s:5:"width";i:350;s:6:"height";i:453;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:13:"1-570x499.jpg";s:5:"width";i:570;s:6:"height";i:499;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
 (143, 25, '_wp_attached_file', '2016/09/8285850247_d6de9ba147_b.jpg'),
-(144, 25, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:1024;s:6:"height";i:532;s:4:"file";s:35:"2016/09/8285850247_d6de9ba147_b.jpg";s:5:"sizes";a:8:{s:9:"thumbnail";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-300x156.jpg";s:5:"width";i:300;s:6:"height";i:156;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-768x399.jpg";s:5:"width";i:768;s:6:"height";i:399;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:36:"8285850247_d6de9ba147_b-1024x532.jpg";s:5:"width";i:1024;s:6:"height";i:532;s:9:"mime-type";s:10:"image/jpeg";}s:16:"shapely-featured";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-848x532.jpg";s:5:"width";i:848;s:6:"height";i:532;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-350x182.jpg";s:5:"width";i:350;s:6:"height";i:182;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-350x453.jpg";s:5:"width";i:350;s:6:"height";i:453;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-570x532.jpg";s:5:"width";i:570;s:6:"height";i:532;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}');
+(144, 25, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:1024;s:6:"height";i:532;s:4:"file";s:35:"2016/09/8285850247_d6de9ba147_b.jpg";s:5:"sizes";a:8:{s:9:"thumbnail";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-300x156.jpg";s:5:"width";i:300;s:6:"height";i:156;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-768x399.jpg";s:5:"width";i:768;s:6:"height";i:399;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:36:"8285850247_d6de9ba147_b-1024x532.jpg";s:5:"width";i:1024;s:6:"height";i:532;s:9:"mime-type";s:10:"image/jpeg";}s:16:"shapely-featured";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-848x532.jpg";s:5:"width";i:848;s:6:"height";i:532;s:9:"mime-type";s:10:"image/jpeg";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-350x182.jpg";s:5:"width";i:350;s:6:"height";i:182;s:9:"mime-type";s:10:"image/jpeg";}s:12:"shop_catalog";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-350x453.jpg";s:5:"width";i:350;s:6:"height";i:453;s:9:"mime-type";s:10:"image/jpeg";}s:11:"shop_single";a:4:{s:4:"file";s:35:"8285850247_d6de9ba147_b-570x532.jpg";s:5:"width";i:570;s:6:"height";i:532;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
+(145, 26, '_wp_attached_file', '2016/09/favicon.png'),
+(146, 26, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:72;s:6:"height";i:72;s:4:"file";s:19:"2016/09/favicon.png";s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
+(147, 27, '_wp_attached_file', '2016/09/3-1.png'),
+(148, 27, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:636;s:6:"height";i:106;s:4:"file";s:15:"2016/09/3-1.png";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:15:"3-1-150x106.png";s:5:"width";i:150;s:6:"height";i:106;s:9:"mime-type";s:9:"image/png";}s:6:"medium";a:4:{s:4:"file";s:14:"3-1-300x50.png";s:5:"width";i:300;s:6:"height";i:50;s:9:"mime-type";s:9:"image/png";}s:14:"shop_thumbnail";a:4:{s:4:"file";s:14:"3-1-350x58.png";s:5:"width";i:350;s:6:"height";i:58;s:9:"mime-type";s:9:"image/png";}s:12:"shop_catalog";a:4:{s:4:"file";s:15:"3-1-350x106.png";s:5:"width";i:350;s:6:"height";i:106;s:9:"mime-type";s:9:"image/png";}s:11:"shop_single";a:4:{s:4:"file";s:15:"3-1-570x106.png";s:5:"width";i:570;s:6:"height";i:106;s:9:"mime-type";s:9:"image/png";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
+(149, 27, '_wp_attachment_image_alt', 'logo'),
+(150, 26, '_wp_attachment_image_alt', 'favicon'),
+(151, 28, '_menu_item_type', 'post_type'),
+(152, 28, '_menu_item_menu_item_parent', '0'),
+(153, 28, '_menu_item_object_id', '7'),
+(154, 28, '_menu_item_object', 'page'),
+(155, 28, '_menu_item_target', ''),
+(156, 28, '_menu_item_classes', 'a:1:{i:0;s:0:"";}'),
+(157, 28, '_menu_item_xfn', ''),
+(158, 28, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -642,7 +657,10 @@ INSERT INTO `ha_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (22, 1, '2016-09-16 15:51:27', '2016-09-16 15:51:27', '', 'Front Page', '', 'publish', 'closed', 'closed', '', 'front-page', '', '', '2016-09-16 15:51:27', '2016-09-16 15:51:27', '', 0, 'http://localhost/haloacara/?page_id=22', 0, 'page', '', 0),
 (23, 1, '2016-09-16 15:51:27', '2016-09-16 15:51:27', '', 'Front Page', '', 'inherit', 'closed', 'closed', '', '22-revision-v1', '', '', '2016-09-16 15:51:27', '2016-09-16 15:51:27', '', 22, 'http://localhost/haloacara/2016/09/16/22-revision-v1/', 0, 'revision', '', 0),
 (24, 1, '2016-09-16 15:53:37', '2016-09-16 15:53:37', '', '1', '', 'inherit', 'open', 'closed', '', '1', '', '', '2016-09-16 15:53:37', '2016-09-16 15:53:37', '', 0, 'http://localhost/haloacara/wp-content/uploads/2016/09/1.jpg', 0, 'attachment', 'image/jpeg', 0),
-(25, 1, '2016-09-16 15:58:26', '2016-09-16 15:58:26', '', '8285850247_d6de9ba147_b', '', 'inherit', 'open', 'closed', '', '8285850247_d6de9ba147_b', '', '', '2016-09-16 15:58:26', '2016-09-16 15:58:26', '', 0, 'http://localhost/haloacara/wp-content/uploads/2016/09/8285850247_d6de9ba147_b.jpg', 0, 'attachment', 'image/jpeg', 0);
+(25, 1, '2016-09-16 15:58:26', '2016-09-16 15:58:26', '', '8285850247_d6de9ba147_b', '', 'inherit', 'open', 'closed', '', '8285850247_d6de9ba147_b', '', '', '2016-09-16 15:58:26', '2016-09-16 15:58:26', '', 0, 'http://localhost/haloacara/wp-content/uploads/2016/09/8285850247_d6de9ba147_b.jpg', 0, 'attachment', 'image/jpeg', 0),
+(26, 1, '2016-09-16 18:27:07', '2016-09-16 18:27:07', 'favicon', 'favicon', 'favicon', 'inherit', 'open', 'closed', '', 'favicon', '', '', '2016-09-16 18:27:39', '2016-09-16 18:27:39', '', 0, 'http://localhost/haloacara/wp-content/uploads/2016/09/favicon.png', 0, 'attachment', 'image/png', 0),
+(27, 1, '2016-09-16 18:27:16', '2016-09-16 18:27:16', 'logo', 'logo', 'logo', 'inherit', 'open', 'closed', '', '3', '', '', '2016-09-16 18:27:34', '2016-09-16 18:27:34', '', 0, 'http://localhost/haloacara/wp-content/uploads/2016/09/3-1.png', 0, 'attachment', 'image/png', 0),
+(28, 1, '2016-09-16 18:29:28', '2016-09-16 18:29:28', ' ', '', '', 'publish', 'closed', 'closed', '', '28', '', '', '2016-09-16 18:29:28', '2016-09-16 18:29:28', '', 0, 'http://localhost/haloacara/2016/09/16/28/', 1, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -703,7 +721,8 @@ INSERT INTO `ha_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (9, 'Apparel', 'apparel', 0),
 (10, 'Sound &amp; Lighting', 'sound-lighting', 0),
 (11, 'Jakarta', 'jakarta', 0),
-(12, 'Depok', 'depok', 0);
+(12, 'Depok', 'depok', 0),
+(13, 'Home', 'home', 0);
 
 -- --------------------------------------------------------
 
@@ -727,7 +746,8 @@ INSERT INTO `ha_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (9, 6, 0),
 (9, 11, 0),
 (15, 7, 0),
-(15, 8, 0);
+(15, 8, 0),
+(28, 13, 0);
 
 -- --------------------------------------------------------
 
@@ -760,7 +780,8 @@ INSERT INTO `ha_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 (9, 9, 'product_cat', '', 0, 0),
 (10, 10, 'product_cat', '', 0, 0),
 (11, 11, 'product_tag', '', 0, 1),
-(12, 12, 'product_tag', '', 0, 0);
+(12, 12, 'product_tag', '', 0, 0),
+(13, 13, 'nav_menu', '', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -795,8 +816,8 @@ INSERT INTO `ha_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (13, 1, 'show_welcome_panel', '1'),
 (15, 1, 'ha_dashboard_quick_press_last_post_id', '3'),
 (16, 1, 'manageedit-shop_ordercolumnshidden', 'a:1:{i:0;s:15:"billing_address";}'),
-(17, 1, 'ha_user-settings', 'editor=html&mfold=o'),
-(18, 1, 'ha_user-settings-time', '1474044969'),
+(17, 1, 'ha_user-settings', 'editor=tinymce&libraryContent=browse'),
+(18, 1, 'ha_user-settings-time', '1474050377'),
 (20, 2, 'nickname', 'test'),
 (21, 2, 'first_name', ''),
 (22, 2, 'last_name', ''),
@@ -809,7 +830,7 @@ INSERT INTO `ha_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (29, 2, 'ha_capabilities', 'a:1:{s:8:"customer";b:1;}'),
 (30, 2, 'ha_user_level', '0'),
 (32, 2, 'manageedit-shop_ordercolumnshidden', 'a:1:{i:0;s:15:"billing_address";}'),
-(33, 1, 'session_tokens', 'a:2:{s:64:"b0cdaaa0aa1f71152f977ee712341f975d1acfa409d72bced9599238a1553a00";a:4:{s:10:"expiration";i:1474184611;s:2:"ip";s:3:"::1";s:2:"ua";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36";s:5:"login";i:1474011811;}s:64:"2998e9c2ca56d3173a4f173c416ca7819145f38adc93029964648428fb0c3c40";a:4:{s:10:"expiration";i:1474216450;s:2:"ip";s:3:"::1";s:2:"ua";s:109:"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36";s:5:"login";i:1474043650;}}'),
+(33, 1, 'session_tokens', 'a:3:{s:64:"b0cdaaa0aa1f71152f977ee712341f975d1acfa409d72bced9599238a1553a00";a:4:{s:10:"expiration";i:1474184611;s:2:"ip";s:3:"::1";s:2:"ua";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36";s:5:"login";i:1474011811;}s:64:"2998e9c2ca56d3173a4f173c416ca7819145f38adc93029964648428fb0c3c40";a:4:{s:10:"expiration";i:1474216450;s:2:"ip";s:3:"::1";s:2:"ua";s:109:"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36";s:5:"login";i:1474043650;}s:64:"917b37fc1b90b65ca474e3c3206c1cdb73a1c08202e3b418984211a188149b44";a:4:{s:10:"expiration";i:1474223158;s:2:"ip";s:3:"::1";s:2:"ua";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";s:5:"login";i:1474050358;}}'),
 (34, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:"link-target";i:1;s:11:"css-classes";i:2;s:3:"xfn";i:3;s:11:"description";i:4;s:15:"title-attribute";}'),
 (35, 1, 'metaboxhidden_nav-menus', 'a:5:{i:0;s:30:"woocommerce_endpoints_nav_link";i:1;s:21:"add-post-type-product";i:2;s:12:"add-post_tag";i:3;s:15:"add-product_cat";i:4;s:15:"add-product_tag";}'),
 (37, 1, 'closedpostboxes_product', 'a:0:{}'),
@@ -1305,17 +1326,17 @@ ALTER TABLE `ha_links`
 -- AUTO_INCREMENT for table `ha_options`
 --
 ALTER TABLE `ha_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=497;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=502;
 --
 -- AUTO_INCREMENT for table `ha_postmeta`
 --
 ALTER TABLE `ha_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=145;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=159;
 --
 -- AUTO_INCREMENT for table `ha_posts`
 --
 ALTER TABLE `ha_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 --
 -- AUTO_INCREMENT for table `ha_termmeta`
 --
@@ -1325,12 +1346,12 @@ ALTER TABLE `ha_termmeta`
 -- AUTO_INCREMENT for table `ha_terms`
 --
 ALTER TABLE `ha_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `ha_term_taxonomy`
 --
 ALTER TABLE `ha_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `ha_usermeta`
 --
